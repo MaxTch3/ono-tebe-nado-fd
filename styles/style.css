@@ -1,9 +1,9 @@
 .header {
   display: grid;
   grid-template-columns: 239fr auto 237fr;
-  font-size: 18px;
-  padding: 92px 50px 96px;
   min-height: 293px;
+  padding: 92px 50px 96px;
+  font-size: 18px;
 }
 
 .header__menu {
@@ -24,8 +24,8 @@
 }
 
 .header__link {
-  text-decoration: none;
   border-bottom: 1px solid;
+  text-decoration: none;
 }
 
 .header__link_active {
@@ -39,11 +39,11 @@
 .address {
   display: flex;
   flex-direction: column;
-  line-height: 1.35;
-  max-width: 240px;
-  font-style: normal;
   align-items: start;
+  max-width: 240px;
   padding-top: 3px;
+  font-style: normal;
+  line-height: 1.35;
 }
 
 .header__address {

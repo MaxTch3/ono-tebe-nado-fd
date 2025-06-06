@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 239fr auto 237fr;
   min-height: 293px;
-  padding: 92px 50px 96px;
+  padding: 92px 50px;
   font-size: 18px;
 }
 

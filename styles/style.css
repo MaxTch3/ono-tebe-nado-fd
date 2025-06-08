@@ -136,13 +136,13 @@
   display: flex;
   gap: 25px;
   padding-top: 27px;
+  padding-bottom: 30px;
   list-style: none;
 }
 
 .lots__card-list-item {
   width: 334px;
   min-height: 596px;
-
 }
 
 .card-link {
@@ -187,4 +187,9 @@
   line-height: 1.2;
 }
 
-.lots__look-more-link {}
+.lots__look-more-link {
+  margin-left: 40px;
+  border-bottom: 1px solid;
+  font-size: 20px;
+  text-decoration: none;
+}

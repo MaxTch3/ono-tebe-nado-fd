@@ -1,7 +1,6 @@
 .header {
   display: grid;
   grid-template-columns: 239fr auto 237fr;
-  min-height: 293px;
   padding: 92px 50px;
   font-size: 18px;
 }
@@ -45,6 +44,11 @@
 
 .header__address {
   justify-self: end;
+}
+
+.address__link {
+  border-bottom: 1px solid;
+  text-decoration: none;
 }
 
 .cover {
@@ -114,7 +118,7 @@
 .bet-button {
   width: 256px;
   height: 51px;
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
   padding: 0;
   color: #fff;
   font-weight: 500;

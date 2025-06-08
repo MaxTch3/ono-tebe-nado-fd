@@ -134,6 +134,7 @@
 
 .lots__card-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 25px;
   padding-top: 27px;
   padding-bottom: 30px;
@@ -239,7 +240,6 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
-  /* min-height: 180px; */
   padding: 178px 50px 82px;
   font-size: 18px;
 }
